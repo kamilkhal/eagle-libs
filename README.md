@@ -1,2 +1,6 @@
-# eagle-lib
-Library of custom parts for use in EAGLE.
+## EAGLE Libraries
+
+**The Underwater Robotics Team**  
+The Ohio State University
+
+*This repository holds the team's collection of EAGLE libraries.*
