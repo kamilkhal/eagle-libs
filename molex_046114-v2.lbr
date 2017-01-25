@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="46114-1017">
+<pad name="EXTRA_P1_2" x="5" y="0" drill="1"/>
+<pad name="5V_2" x="5" y="3.33" drill="1"/>
+<pad name="EXTRA_P1_0" x="0" y="0" drill="1"/>
+<pad name="5V_0" x="0" y="3.33" drill="1"/>
+<pad name="EXTRA_P1_1" x="2.5" y="0" drill="1"/>
+<pad name="5V_1" x="2.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P1_3" x="7.5" y="0" drill="1"/>
+<pad name="5V_3" x="7.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P2_2" x="17" y="0" drill="1"/>
+<pad name="5V_GND_2" x="17" y="3.33" drill="1"/>
+<pad name="EXTRA_P2_0" x="12" y="0" drill="1"/>
+<pad name="5V_GND_0" x="12" y="3.33" drill="1"/>
+<pad name="EXTRA_P2_1" x="14.5" y="0" drill="1"/>
+<pad name="5V_GND_1" x="14.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P2_3" x="19.5" y="0" drill="1"/>
+<pad name="5V_GND_3" x="19.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P3_2" x="29" y="0" drill="1"/>
+<pad name="12V_2" x="29" y="3.33" drill="1"/>
+<pad name="EXTRA_P3_0" x="24" y="0" drill="1"/>
+<pad name="12V_0" x="24" y="3.33" drill="1"/>
+<pad name="EXTRA_P3_1" x="26.5" y="0" drill="1"/>
+<pad name="12V_1" x="26.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P3_3" x="31.5" y="0" drill="1"/>
+<pad name="12V_3" x="31.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P4_2" x="41" y="0" drill="1"/>
+<pad name="12V_GND_2" x="41" y="3.33" drill="1"/>
+<pad name="EXTRA_P4_0" x="36" y="0" drill="1"/>
+<pad name="12V_GND_0" x="36" y="3.33" drill="1"/>
+<pad name="EXTRA_P4_1" x="38.5" y="0" drill="1"/>
+<pad name="12V_GND_1" x="38.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P4_3" x="43.5" y="0" drill="1"/>
+<pad name="12V_GND_3" x="43.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P5_2" x="53" y="0" drill="1"/>
+<pad name="EXTRA_2" x="53" y="3.33" drill="1"/>
+<pad name="EXTRA_P5_0" x="48" y="0" drill="1"/>
+<pad name="EXTRA_0" x="48" y="3.33" drill="1"/>
+<pad name="EXTRA_P5_1" x="50.5" y="0" drill="1"/>
+<pad name="EXTRA_1" x="50.5" y="3.33" drill="1"/>
+<pad name="EXTRA_P5_3" x="55.5" y="0" drill="1"/>
+<pad name="EXTRA_3" x="55.5" y="3.33" drill="1"/>
+<pad name="D+" x="61.3" y="4.52" drill="0.8" rot="R180"/>
+<pad name="SPARE_4" x="60.03" y="2.61" drill="0.8" rot="R90"/>
+<pad name="SDA_SENSORS" x="61.3" y="0.7" drill="0.8" rot="R180"/>
+<pad name="SDA_DEPTH_SENSOR" x="60.03" y="-1.21" drill="0.8"/>
+<pad name="SPARE_3" x="62.57" y="2.61" drill="0.8"/>
+<pad name="D-" x="63.84" y="4.52" drill="0.8"/>
+<pad name="SDA_DEPTH_S" x="60.03" y="-1.21" drill="0.8"/>
+<pad name="SDA_ESC" x="66.38" y="0.7" drill="0.8"/>
+<pad name="SPARE_6" x="66.38" y="4.52" drill="0.8" rot="R90"/>
+<pad name="SPARE_5" x="68.92" y="4.52" drill="0.8"/>
+<pad name="SPARE_2" x="65.11" y="2.61" drill="0.8" rot="R90"/>
+<pad name="SPARE_1" x="67.65" y="2.61" drill="0.8"/>
+<pad name="SCL_DEPTH_S" x="62.57" y="-1.21" drill="0.8"/>
+<pad name="CAN_BUS2" x="67.65" y="-1.21" drill="0.8"/>
+<pad name="CAN_BUS1" x="65.11" y="-1.21" drill="0.8"/>
+<pad name="SCL_SENSORS" x="63.84" y="0.7" drill="0.8"/>
+<pad name="SCL_ESC" x="68.92" y="0.7" drill="0.8"/>
+<hole x="0" y="0" drill="1"/>
+<hole x="2.5" y="0" drill="1"/>
+<hole x="5" y="0" drill="1"/>
+<hole x="7.5" y="0" drill="1"/>
+<hole x="12" y="0" drill="1"/>
+<hole x="14.5" y="0" drill="1"/>
+<hole x="17" y="0" drill="1"/>
+<hole x="19.5" y="0" drill="1"/>
+<hole x="24" y="0" drill="1"/>
+<hole x="26.5" y="0" drill="1"/>
+<hole x="29" y="0" drill="1"/>
+<hole x="31.5" y="0" drill="1"/>
+<hole x="36" y="0" drill="1"/>
+<hole x="38.5" y="0" drill="1"/>
+<hole x="41" y="0" drill="1"/>
+<hole x="43.5" y="0" drill="1"/>
+<hole x="50.5" y="0" drill="1"/>
+<hole x="53" y="0" drill="1"/>
+<hole x="55.5" y="0" drill="1"/>
+<hole x="48" y="0" drill="1"/>
+<hole x="0" y="3.33" drill="1"/>
+<hole x="2.5" y="3.33" drill="1"/>
+<hole x="5" y="3.33" drill="1"/>
+<hole x="7.5" y="3.33" drill="1"/>
+<hole x="12" y="3.33" drill="1"/>
+<hole x="14.5" y="3.33" drill="1"/>
+<hole x="17" y="3.33" drill="1"/>
+<hole x="19.5" y="3.33" drill="1"/>
+<hole x="24" y="3.33" drill="1"/>
+<hole x="26.5" y="3.33" drill="1"/>
+<hole x="29" y="3.33" drill="1"/>
+<hole x="31.5" y="3.33" drill="1"/>
+<hole x="36" y="3.33" drill="1"/>
+<hole x="38.5" y="3.33" drill="1"/>
+<hole x="41" y="3.33" drill="1"/>
+<hole x="43.5" y="3.33" drill="1"/>
+<hole x="48" y="3.33" drill="1"/>
+<hole x="50.5" y="3.33" drill="1"/>
+<hole x="53" y="3.33" drill="1"/>
+<hole x="55.5" y="3.33" drill="1"/>
+<hole x="61.3" y="4.52" drill="0.8"/>
+<hole x="63.84" y="4.52" drill="0.8"/>
+<hole x="66.38" y="4.52" drill="0.8"/>
+<hole x="68.92" y="4.52" drill="0.8"/>
+<hole x="60.03" y="2.61" drill="0.8"/>
+<hole x="62.57" y="2.61" drill="0.8"/>
+<hole x="65.11" y="2.61" drill="0.8"/>
+<hole x="67.65" y="2.61" drill="0.8"/>
+<hole x="61.3" y="0.7" drill="0.8"/>
+<hole x="63.84" y="0.7" drill="0.8"/>
+<hole x="66.38" y="0.7" drill="0.8"/>
+<hole x="68.92" y="0.7" drill="0.8"/>
+<hole x="60.03" y="-1.21" drill="0.8"/>
+<hole x="62.57" y="-1.21" drill="0.8"/>
+<hole x="65.11" y="-1.21" drill="0.8"/>
+<hole x="67.65" y="-1.21" drill="0.8"/>
+<wire x1="-3.5" y1="6" x2="-3.5" y2="-2.5" width="0.127" layer="1"/>
+<wire x1="-3.5" y1="-2.5" x2="73.5" y2="-2.5" width="0.127" layer="1"/>
+<wire x1="73.5" y1="-2.5" x2="73.5" y2="6" width="0.127" layer="1"/>
+<wire x1="73.5" y1="6" x2="-3.5" y2="6" width="0.127" layer="1"/>
+<text x="-1.27" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="CARD_EDGE">
+<smd name="5_V" x="4.87" y="3.35" dx="9.73" dy="6.7" layer="1"/>
+<smd name="5_V_GND" x="16.87" y="3.35" dx="9.7282" dy="6.7056" layer="1"/>
+<smd name="P3_EXTRA" x="28.87" y="3.35" dx="9.7282" dy="6.7056" layer="16"/>
+<smd name="P4_EXTRA" x="40.87" y="3.35" dx="9.7282" dy="6.7056" layer="16"/>
+<smd name="EXTRA" x="52.87" y="3.35" dx="9.7282" dy="6.7056" layer="1"/>
+<smd name="D+" x="61.1" y="3.35" dx="0.76" dy="6.7" layer="16"/>
+<smd name="SCL_SENSORS" x="62.37" y="3.35" dx="0.76" dy="6.7" layer="1"/>
+<smd name="SDA_ESC" x="63.64" y="3.35" dx="0.76" dy="6.7" layer="1"/>
+<smd name="SCL_ESC" x="64.91" y="3.35" dx="0.76" dy="6.7" layer="1"/>
+<smd name="SDA_DEPTH" x="66.18" y="3.35" dx="0.76" dy="6.7" layer="1"/>
+<smd name="SHARE3" x="67.45" y="3.35" dx="0.76" dy="6.7" layer="16"/>
+<smd name="SHARE2" x="68.72" y="3.35" dx="0.76" dy="6.7" layer="16"/>
+<smd name="SHARE1" x="69.99" y="3.35" dx="0.76" dy="6.7" layer="16"/>
+<smd name="P1_EXTRA" x="4.87" y="3.35" dx="9.73" dy="6.7" layer="16"/>
+<smd name="P2_EXTRA" x="16.87" y="3.35" dx="9.7282" dy="6.7056" layer="16"/>
+<smd name="12_V" x="28.87" y="3.35" dx="9.7282" dy="6.7056" layer="1"/>
+<smd name="12_V_GND" x="40.87" y="3.35" dx="9.7282" dy="6.7056" layer="1"/>
+<smd name="P5_EXTRA" x="52.87" y="3.35" dx="9.7282" dy="6.7056" layer="16"/>
+<smd name="SDA_SENSORS" x="61.1" y="3.35" dx="0.76" dy="6.7" layer="1"/>
+<smd name="D-" x="62.37" y="3.35" dx="0.76" dy="6.7" layer="16"/>
+<smd name="SHARE6" x="63.64" y="3.35" dx="0.76" dy="6.7" layer="16"/>
+<smd name="SHARE5" x="64.91" y="3.35" dx="0.76" dy="6.7" layer="16"/>
+<smd name="SHARE4" x="66.18" y="3.35" dx="0.76" dy="6.7" layer="16"/>
+<smd name="SCL_DEPTH" x="67.45" y="3.35" dx="0.76" dy="6.7" layer="1"/>
+<smd name="CAN_BUS1" x="68.72" y="3.35" dx="0.76" dy="6.7" layer="1"/>
+<smd name="CAN_BUS2" x="69.99" y="3.35" dx="0.76" dy="6.7" layer="1"/>
+<text x="2.54" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="0" y1="0" x2="9.7282" y2="0" width="0.127" layer="20"/>
+<wire x1="9.7282" y1="0" x2="9.7282" y2="6.747" width="0.127" layer="20"/>
+<wire x1="9.7282" y1="6.747" x2="10.7282" y2="7.747" width="0.127" layer="20" curve="-90"/>
+<wire x1="10.7282" y1="7.747" x2="10.9888" y2="7.747" width="0.127" layer="20"/>
+<wire x1="10.9888" y1="7.747" x2="11.9888" y2="6.747" width="0.127" layer="20" curve="-90"/>
+<wire x1="11.9888" y1="6.747" x2="11.9888" y2="0" width="0.127" layer="20"/>
+<wire x1="11.9888" y1="0" x2="21.717" y2="0" width="0.127" layer="20"/>
+<wire x1="21.717" y1="0" x2="21.717" y2="6.747" width="0.127" layer="20"/>
+<wire x1="21.717" y1="6.747" x2="22.717" y2="7.747" width="0.127" layer="20" curve="-90"/>
+<wire x1="22.717" y1="7.747" x2="22.9776" y2="7.747" width="0.127" layer="20"/>
+<wire x1="22.9776" y1="7.747" x2="23.9776" y2="6.747" width="0.127" layer="20" curve="-90"/>
+<wire x1="23.9776" y1="6.747" x2="23.9776" y2="0" width="0.127" layer="20"/>
+<wire x1="23.9776" y1="0" x2="33.7058" y2="0" width="0.127" layer="20"/>
+<wire x1="33.7058" y1="0" x2="33.7058" y2="6.747" width="0.127" layer="20"/>
+<wire x1="33.7058" y1="6.747" x2="34.7058" y2="7.747" width="0.127" layer="20" curve="-90"/>
+<wire x1="34.7058" y1="7.747" x2="34.9664" y2="7.747" width="0.127" layer="20"/>
+<wire x1="34.9664" y1="7.747" x2="35.9664" y2="6.747" width="0.127" layer="20" curve="-90"/>
+<wire x1="35.9664" y1="6.747" x2="35.9664" y2="0" width="0.127" layer="20"/>
+<wire x1="35.9664" y1="0" x2="45.6946" y2="0" width="0.127" layer="20"/>
+<wire x1="45.6946" y1="0" x2="45.6946" y2="6.747" width="0.127" layer="20"/>
+<wire x1="45.6946" y1="6.747" x2="46.6946" y2="7.747" width="0.127" layer="20" curve="-90"/>
+<wire x1="46.6946" y1="7.747" x2="46.9552" y2="7.747" width="0.127" layer="20"/>
+<wire x1="46.9552" y1="7.747" x2="47.9552" y2="6.747" width="0.127" layer="20" curve="-90"/>
+<wire x1="47.9552" y1="6.747" x2="47.9552" y2="0" width="0.127" layer="20"/>
+<wire x1="47.9552" y1="0" x2="57.6834" y2="0" width="0.127" layer="20"/>
+<wire x1="57.6834" y1="0" x2="57.6834" y2="6.62" width="0.127" layer="20"/>
+<wire x1="57.6834" y1="6.62" x2="58.6834" y2="7.62" width="0.127" layer="20" curve="-90"/>
+<wire x1="58.6834" y1="7.62" x2="59.2742" y2="7.62" width="0.127" layer="20"/>
+<wire x1="59.2742" y1="7.62" x2="60.2742" y2="6.62" width="0.127" layer="20" curve="-90"/>
+<wire x1="60.2742" y1="6.62" x2="60.2742" y2="0" width="0.127" layer="20"/>
+<wire x1="60.2742" y1="0" x2="70.8152" y2="0" width="0.127" layer="20"/>
+<wire x1="70.8152" y1="0" x2="70.8152" y2="10.16" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="10.16" width="0.127" layer="20"/>
+</package>
+</packages>
+<symbols>
+<symbol name="46114-1017">
+<wire x1="-25.4" y1="35.56" x2="25.4" y2="35.56" width="0.254" layer="94"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="-25.4" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-7.62" x2="-25.4" y2="35.56" width="0.254" layer="94"/>
+<pin name="5V" x="-22.86" y="-12.7" length="middle" rot="R90"/>
+<pin name="5V_GND" x="-17.78" y="-12.7" length="middle" rot="R90"/>
+<pin name="12V" x="-12.7" y="-12.7" length="middle" rot="R90"/>
+<pin name="12V_GND" x="-7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="EXTRA_P0" x="-2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="SDA_SENSORS" x="5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="SCL_SENSORS" x="7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="SDA_ESC" x="10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="SCL_ESC" x="12.7" y="-12.7" length="middle" rot="R90"/>
+<pin name="SDA_DEPTH_S" x="15.24" y="-12.7" length="middle" rot="R90"/>
+<pin name="SCL_DEPTH_S" x="17.78" y="-12.7" length="middle" rot="R90"/>
+<pin name="CAN_BUS1" x="20.32" y="-12.7" length="middle" rot="R90"/>
+<pin name="CAN_BUS2" x="22.86" y="-12.7" length="middle" rot="R90"/>
+<text x="-35.56" y="33.02" size="1.778" layer="95">&gt;NAME</text>
+<text x="-35.56" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="SPARE_1" x="22.86" y="40.64" length="middle" rot="R270"/>
+<pin name="SPARE_2" x="20.32" y="40.64" length="middle" rot="R270"/>
+<pin name="SPARE_3" x="17.78" y="40.64" length="middle" rot="R270"/>
+<pin name="SPARE_4" x="15.24" y="40.64" length="middle" rot="R270"/>
+<pin name="SPARE_5" x="12.7" y="40.64" length="middle" rot="R270"/>
+<pin name="SPARE_6" x="10.16" y="40.64" length="middle" rot="R270"/>
+<pin name="D-" x="7.62" y="40.64" length="middle" rot="R270"/>
+<pin name="D+" x="5.08" y="40.64" length="middle" rot="R270"/>
+<pin name="EXTRA_P1" x="-22.86" y="40.64" length="middle" rot="R270"/>
+<pin name="EXTRA_P2" x="-17.78" y="40.64" length="middle" rot="R270"/>
+<pin name="EXTRA_P3" x="-12.7" y="40.64" length="middle" rot="R270"/>
+<pin name="EXTRA_P4" x="-7.62" y="40.64" length="middle" rot="R270"/>
+<pin name="EXTRA_P5" x="-2.54" y="40.64" length="middle" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="46114-1017" prefix="JP">
+<gates>
+<gate name="G$1" symbol="46114-1017" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="46114-1017">
+<connects>
+<connect gate="G$1" pin="12V" pad="12V_0 12V_1 12V_2 12V_3"/>
+<connect gate="G$1" pin="12V_GND" pad="12V_GND_0 12V_GND_1 12V_GND_2 12V_GND_3"/>
+<connect gate="G$1" pin="5V" pad="5V_0 5V_1 5V_2 5V_3"/>
+<connect gate="G$1" pin="5V_GND" pad="5V_GND_0 5V_GND_1 5V_GND_2 5V_GND_3"/>
+<connect gate="G$1" pin="CAN_BUS1" pad="CAN_BUS1"/>
+<connect gate="G$1" pin="CAN_BUS2" pad="CAN_BUS2"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="EXTRA_P0" pad="EXTRA_0 EXTRA_1 EXTRA_2 EXTRA_3"/>
+<connect gate="G$1" pin="EXTRA_P1" pad="EXTRA_P1_0 EXTRA_P1_1 EXTRA_P1_2 EXTRA_P1_3"/>
+<connect gate="G$1" pin="EXTRA_P2" pad="EXTRA_P2_0 EXTRA_P2_1 EXTRA_P2_2 EXTRA_P2_3"/>
+<connect gate="G$1" pin="EXTRA_P3" pad="EXTRA_P3_0 EXTRA_P3_1 EXTRA_P3_2 EXTRA_P3_3"/>
+<connect gate="G$1" pin="EXTRA_P4" pad="EXTRA_P4_0 EXTRA_P4_1 EXTRA_P4_2 EXTRA_P4_3"/>
+<connect gate="G$1" pin="EXTRA_P5" pad="EXTRA_P5_0 EXTRA_P5_1 EXTRA_P5_2 EXTRA_P5_3"/>
+<connect gate="G$1" pin="SCL_DEPTH_S" pad="SCL_DEPTH_S"/>
+<connect gate="G$1" pin="SCL_ESC" pad="SCL_ESC"/>
+<connect gate="G$1" pin="SCL_SENSORS" pad="SCL_SENSORS"/>
+<connect gate="G$1" pin="SDA_DEPTH_S" pad="SDA_DEPTH_S SDA_DEPTH_SENSOR"/>
+<connect gate="G$1" pin="SDA_ESC" pad="SDA_ESC"/>
+<connect gate="G$1" pin="SDA_SENSORS" pad="SDA_SENSORS"/>
+<connect gate="G$1" pin="SPARE_1" pad="SPARE_1"/>
+<connect gate="G$1" pin="SPARE_2" pad="SPARE_2"/>
+<connect gate="G$1" pin="SPARE_3" pad="SPARE_3"/>
+<connect gate="G$1" pin="SPARE_4" pad="SPARE_4"/>
+<connect gate="G$1" pin="SPARE_5" pad="SPARE_5"/>
+<connect gate="G$1" pin="SPARE_6" pad="SPARE_6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CARD_EDGE" prefix="JP">
+<gates>
+<gate name="JP" symbol="46114-1017" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CARD_EDGE">
+<connects>
+<connect gate="JP" pin="12V" pad="12_V"/>
+<connect gate="JP" pin="12V_GND" pad="12_V_GND"/>
+<connect gate="JP" pin="5V" pad="5_V"/>
+<connect gate="JP" pin="5V_GND" pad="5_V_GND"/>
+<connect gate="JP" pin="CAN_BUS1" pad="CAN_BUS1"/>
+<connect gate="JP" pin="CAN_BUS2" pad="CAN_BUS2"/>
+<connect gate="JP" pin="D+" pad="D+"/>
+<connect gate="JP" pin="D-" pad="D-"/>
+<connect gate="JP" pin="EXTRA_P0" pad="EXTRA"/>
+<connect gate="JP" pin="EXTRA_P1" pad="P1_EXTRA"/>
+<connect gate="JP" pin="EXTRA_P2" pad="P2_EXTRA"/>
+<connect gate="JP" pin="EXTRA_P3" pad="P3_EXTRA"/>
+<connect gate="JP" pin="EXTRA_P4" pad="P4_EXTRA"/>
+<connect gate="JP" pin="EXTRA_P5" pad="P5_EXTRA"/>
+<connect gate="JP" pin="SCL_DEPTH_S" pad="SCL_DEPTH"/>
+<connect gate="JP" pin="SCL_ESC" pad="SCL_ESC"/>
+<connect gate="JP" pin="SCL_SENSORS" pad="SCL_SENSORS"/>
+<connect gate="JP" pin="SDA_DEPTH_S" pad="SDA_DEPTH"/>
+<connect gate="JP" pin="SDA_ESC" pad="SDA_ESC"/>
+<connect gate="JP" pin="SDA_SENSORS" pad="SDA_SENSORS"/>
+<connect gate="JP" pin="SPARE_1" pad="SHARE1"/>
+<connect gate="JP" pin="SPARE_2" pad="SHARE2"/>
+<connect gate="JP" pin="SPARE_3" pad="SHARE3"/>
+<connect gate="JP" pin="SPARE_4" pad="SHARE4"/>
+<connect gate="JP" pin="SPARE_5" pad="SHARE5"/>
+<connect gate="JP" pin="SPARE_6" pad="SHARE6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
